@@ -3,7 +3,7 @@ FROM openjdk:8-jre-alpine
 MAINTAINER Fabio Uechi
 
 ENV WM_PACKAGE wiremock
-ENV WM_VERSION 2.3.1
+ENV WM_VERSION 2.4.1
 
 RUN mkdir -p /$WM_PACKAGE/bin && \
 	mkdir -p /$WM_PACKAGE/config && \
